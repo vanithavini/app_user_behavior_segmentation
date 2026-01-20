@@ -22,9 +22,6 @@ print("Missing values per column:\n", df.isnull().sum())
 print("Number of duplicate rows:", df.duplicated().sum())
 
 # Categorical Value Distribution Check
-#for col in categorical_cols:
- #   print(df[col].value_counts(normalize=True))
- #   print("-" * 40)
 categorical_cols = [
     'gender', 'country', 'device_type',
     'app_version', 'subscription_type',
