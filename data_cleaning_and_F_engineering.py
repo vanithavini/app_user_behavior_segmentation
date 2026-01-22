@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import LabelEncoder, StandardScaler
-#from sklearn.impute import SimpleImputer
 
 # Load the raw Dataset
 file_path = (r"C:\Users\Vanitha\OneDrive\Documents\GUVI\capstone_project\app_user_behavior_segmentation\data\raw\raw_data.csv")
