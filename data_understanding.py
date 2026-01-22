@@ -29,8 +29,9 @@ categorical_cols = [
 ]
 
 for col in categorical_cols:
-    print(f"\n{col.upper()} DISTRIBUTION")
-    print(df[col].value_counts(normalize=True))
+    print(f"\n{col.upper()} DISTRIBUTION:") 
+    print(df[col].value_counts(normalize=True)) 
+    print("-"*40) 
 
 # Save a raw copy of data
 df.to_csv(
