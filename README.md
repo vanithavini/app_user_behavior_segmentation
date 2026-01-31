@@ -28,6 +28,7 @@ app_user_behavior_segmentation/
 ├── app_venv(Environment for this )
 │
 ├── business_use_files/
+|   ├── customer_level_profiles.csv
 │   ├── high_engagement_users.csv
 │   ├── moderate_engagement_users.csv
 │   ├── low_engagement_users.csv
@@ -46,6 +47,7 @@ app_user_behavior_segmentation/
 ├── eda.ipynb
 │
 ├── main.ipynb
+├── mains.ipynb
 │
 ├── README.md
 ├── requirements.txt
@@ -90,6 +92,17 @@ app_user_behavior_segmentation/
 
 Each segment is exported as a separate CSV file for business use.
 
+Finally created a customer level profile and exported as a separate CSV file for business use.
+
+
+### ✅ Module 5: Improving Clustering & PCA Visualization
+* Done Feature selection and Outlier removal
+* Applied **MiniBatchKMeans clustering**
+* Used **Silhouette score** to determine optimal clusters
+* Evaluated clusters using best k value with thier **Silhouette Score**
+* Compared with Hierarchical and BIRCH clustering
+* Visualized improved clusters using **PCA**
+
 
 ## 📈 Business Value
 * Enables targeted marketing campaigns
@@ -108,7 +121,7 @@ Each segment is exported as a separate CSV file for business use.
    * Data Understanding
    * Data Cleaning & Feature Engineering
    * EDA
-   * Clustering
+   * Clustering(main.ipynb & mains.ipynb)
 
 
 ## 📌 Limitations
